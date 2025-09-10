@@ -1,0 +1,117 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Packaging / build artifacts
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Testing / coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Type checker caches
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# IDE / editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & temps
+logs/
+*.log
+tmp/
+temp/
+
+# Environment files
+.env
+.env.*
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data/model/artifact directories (common in ML/audio projects)
+data/
+datasets/
+cache/
+caches/
+checkpoints/
+models/
+artifacts/
+runs/
+wandb/
+mlruns/
+outputs/
+
+# Large model/data files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+
+# OS metadata
+Thumbs.db
+
+# Node (in case of mixed projects)
+node_modules/
+
+# Coverage dir
+coverage/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Audio/media outputs
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.aac
+*.aiff
+*.aif
+*.mid
+*.midi
+
+# Index/FAISS-like artifacts
+*.index
+
